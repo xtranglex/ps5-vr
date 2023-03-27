@@ -1,0 +1,307 @@
+body {
+  background-color: #003791;
+  opacity: 90%;
+ 
+}
+
+
+.logo {
+  line-height: 100px;
+  float: left;
+  vertical-align: middle;
+  display: inline;
+  width: 60px;
+  height: 42px;
+
+}
+
+.logo2 {
+  line-height: 120px;
+  float: right;
+  vertical-align: middle;
+  display: inline;
+  width: 70px;
+  margin: 4px;
+}
+
+h1{
+  font-family: "var(--dk-font)";
+  color:#ffff;
+  text-align: center;
+  font-weight:bold;
+ 
+  opacity: 90%;
+
+
+}
+
+h2 {
+  font-family:"var(--dk-font)";
+  color: #ffff;
+  text-align: center;
+  font-weight:bold;
+ 
+  opacity: 90%;
+
+}
+
+
+p {
+  font-family: "sst",Arial,sans-serif;
+  font-size: 16px;
+  color: #ffff;
+  font-weight: bold;
+  opacity: 90%;
+  text-align: center;
+}
+
+
+#pictures {
+  text-align: center;
+}
+
+    .vr1,
+    .vr2,
+    .vr3 {
+      display: inline-block;
+      border-right:1px solid #000;
+      overflow: hidden;
+
+      
+    }
+
+.vr-img {
+  width: 600px;
+  height: 500px;
+  border-radius: 20%;
+  padding: 10%;
+  opacity: 95%;
+
+
+}
+
+ul {
+  font-family: "sst",Arial,sans-serif;
+  font-size: 16px;
+  color: #ffff;
+  font-weight: bold;
+  opacity: 90%;
+  text-align: center;
+}
+
+.no-bullets {
+  
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+  
+}
+
+.in-box2 {
+  float: right;
+  list-style-type: none;
+  display: inline-block;
+
+ 
+}
+
+.in-box {
+  float: right;
+  display: inline-block;
+ padding: 20px;
+}
+
+.summary {
+  float: left;
+  padding: 40px;
+ border-right:1px solid #000;
+  overflow: hidden;
+}
+
+.topnav {
+  background-color:#191a19;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #ffff;
+  text-align: center;
+  padding: 14px 16px;
+  display: inline-block;
+  text-decoration: none;
+  font-size 17px;
+  font-family: monospace;
+
+}
+
+.topnav a:hover {
+  background-color: #003791;
+  color: #ffff;
+}
+
+.topnav a.active {
+  background-color: #003791;;
+  color: #ffff;
+}
+
+* {
+  box-sizing:border-box;
+} 
+
+
+.slideshow-container { 
+  max-width: 1000px;
+  position:relative;
+}
+
+
+.mySlides 
+{
+  display: none;
+}
+
+/* Next & previous buttons */ 
+
+ .prev, .next
+  {
+   cursor: pointer;
+   position: absolute;
+   top: 50%;
+   width: auto;
+   margin-top: -22px;
+   padding: 16px;
+   color: white;
+   font-weight: bold; 
+   font-size: 18px;
+   transition: 0.6s ease;
+   border-radius: 0 3px 3px 0;
+   user-select: none; 
+  }
+
+
+
+ .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+   
+
+   .prev:hover, .next:hover {
+   background-color: #191a19;
+    }
+
+
+
+     /* The dots/bullets/indicators */
+
+     .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #191a19;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+       }
+
+
+     .active, .dot:hover 
+     {
+      background-color: #ffff;
+     }
+
+    /* Fading animation */
+    .fade
+     {
+      animation-name: fade;
+      animation-duration: 2.5s;
+     }
+
+
+    @keyframes fade 
+    {
+      from {opacity: .4}to {opacity: 1}
+    }
+
+    .text {
+      font-family: monospace;
+      font-weight: bold;
+    }
+
+    .game {
+      text-align: center;
+    }
+
+    .gran-turismo {
+      height: 1060px;
+      opacity: 75%;
+      margin: 20px;
+    }
+
+    .button {
+      border-radius: 6px;
+      background-color: #191a19;
+      font-family: "Impact";
+      color: #ffff;
+      padding: 7px;
+    
+        }
+
+        .button-container {
+          text-align: center;
+        }
+  
+        .fa {
+          padding: 10px;
+          font-size: 50px;
+          margin: 10px;
+          width: 60px;
+          text-align: center;
+          text-decoration: none;
+
+        }
+
+        .fa:hover {
+          opacity: 0.7;
+          background-color: #000;
+          color:#ffff
+        }
+
+        .fa-facebook {
+          background: #3B5998;
+          color: white;
+          opacity: 75%;
+          border-radius: 50px;
+
+        }
+
+        .fa-twitter {
+          background: #55ACEE;
+          color: white;
+          opacity: 80%;
+          border-radius: 50px;
+        }
+
+        .fa-instagram {
+          background: #125688;
+          color: white;
+          border-radius: 50px;
+        }
+
+        .fa-youtube {
+          background: #bb0000;
+          color: white;
+          border-radius: 50px;
+        }
+.end {
+  text-align: center;
+}
+
+h3 {
+  color: #ffff;
+  font-family: monospace;
+  font-weight: bolder;
+}

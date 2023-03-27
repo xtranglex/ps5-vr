@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Seeing Is Believing</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="topnav">
+    <img class="logo" src="images/playstation-logo.png" alt="playstation logo">
+    <a class= "active" href="index.html">Home</a>
+    <a href = "https://www.playstation.com/en-gb/ps-vr2/games/?smcid=pdc%3Aen-gb%3Aps-vr2%3Aprimary%20nav%3Amsg-games%3Aps-vr2" target="_blank">Games</a>
+    <a href = "https://store.playstation.com/en-gb/pages/latest" target="_blank">Shop</a>
+    <a href = "https://www.playstation.com/en-gb/support/?smcid=other%3Aen-gb%3Ablank%3Aprimary%20nav%3Amsg-support%3Asupport" target="_blank">Contact Us </a> 
+    <img class="logo2" src="images/sony.png" alt="sony logo">
+  </div>
+
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <img src="images/vr.jpg" style="width:200%" alt="playstation vr">
+    </div>
+  </div>
+
+  <div class="mySlides fade">
+  
+     <img src= "Images/games.jpg" style="width:100%" alt="games releasing">
+     </div> 
+
+     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+     <a class="next" onclick="plusSlides(1)">&#10095;</a>
+     </div>
+     <br>
+
+     <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+   </div>
+   <!--  tried to fix this slider - only shows one arrow (next) not prev and it's not working when i click it
+    but still unsure would love some feedback on how as my javascript knowledge is limited thank you!-->
+   <script>
+    let slideIndex = 0; showSlides();
+   function showSlides()  
+   { let i; let slides = document.getElementsByClassName("mySlides ");
+    let dots = document.getElementsByClassName("dot"); for (i = 0; i < slides.length; i++) { slides[i].style.display = "none";  } slideIndex++; if (slideIndex > slides.length) 
+    {slideIndex = 1} for (i = 0; i < dots.length; i++) {dots[i].className = dots[i].className.replace(" active", ""); }
+    slides[slideIndex-1].style.display = "block"; dots[slideIndex-1].className += " active";
+   setTimeout(showSlides, 5000);
+   }
+   </script>
+   </div>
+<h1> FEEL A NEW REAL</h1>
+
+<br>
+<br>
+
+<div id="pictures">
+
+  <div class="vr1">
+     <img class="vr-img" src="images/vr2.png"/> 
+
+     <ul class="no-bullets">
+      <li>Single USB-C Connection</li>
+      <li>Headphone Jack</li>
+      <li>Built in Mic</li> 
+     </ul>
+
+  </div>
+  
+  <div class="vr2">
+  <img class="vr-img" src="images/vr3.png"/> 
+
+  <ul class="no-bullets">
+    <li>Six-axis motion sensing system</li>
+    <li>4 tracking cameras</li>
+    <li>110" field of view</li> 
+   </ul>
+
+  </div>
+
+  <div class="vr3">
+    <img class="vr-img" src="images/vr4.png"/> 
+
+    <ul class="no-bullets">
+      <li>2000 x 2040 resolution per eye</li>
+      <li>90Hz, 120Hz refresh rate</li>
+      <li>OLED Panel</li> 
+     </ul>
+
+  </div>
+  </div>
+</div>
+<br>
+<br>
+<hr>
+<br>
+<div class="summary">
+
+<p>Immerse yourself in another world with 4K HDR visuals
+  that simulates heightened sensory and <br> emotional responses giving a sense of realism 
+in addition to interacting with other players with co-op games or using <br>
+team chats in multiplayer games.</p>
+<p>With new innovative PlayStation VR2 Sense™ technology brings emotion and <br>immersion to life with the addition of subtle headset vibrations, 
+  3D audio technology <br> and intelligent eye tracking, combined with finger touch detection, <br> haptic feedback and adaptive triggers from the PS VR2 Sense controller letting
+  you experience your game in beautiful detail.<br>
+ Available to purchase.</p>
+  <div class="button-container">
+<input class="button" type="button" value="BUY NOW" 
+     onclick="window.open('https://www.playstation.com/en-gb/ps-vr2/?smcid=pdc%3Aen-gb%3Aprimary%20nav%3Amsg-hardware%3Aps-vr2')">
+  </form>
+</div>
+  <br>
+</div>
+<div class ="in-box">
+ <p> WHATS IN THE BOX </p>
+<ul class="in-box2">  
+<li>VR headset</li>
+<li>PlayStation VR2 Sense controller (L) / (R) with attached straps</li>
+<li>USB cable (for controller pairing and charging)</li>
+<li>Stereo headphones</li>
+<li>Three pairs of earpieces</li>
+<li>Printed materials</li>
+
+</ul> 
+
+</div>
+<br>
+<br>
+<div class="game">
+  <br>
+  <img class="gran-turismo" src="images/gran-turismo.jpg">
+</div>
+<h2>- Gran Turismo 7 -</h2>
+<div>
+  <p>Gran Turismo due to be released and available to play on March 4 2022 
+    bringing racing realism to a new level.<br>  With over 400 cars from 
+  more than 60 automotive manufacturers, you can experience the 
+  ability to drive in <br> a realistic virtual world with
+4K and HDR support ensuring a stunning, amazing game experience.<br> You can play locally with friends in '2P Split Screen' mode or go 
+online and race with other players from around the world as well. </p>
+</div>
+<div class="button-container">
+ <input class="button" type="button" value="FIND OUT MORE" 
+     onclick="window.open('https://www.playstation.com/en-gb/games/gran-turismo-7/')">
+  </form>
+</div>
+<br>
+<div style="text-align: center;">
+  <iframe width="1100" height="450" src="https://www.youtube.com/embed/1tBUsXIkG1A" title="YouTube video player" frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <form>
+   
+
+
+</div>
+
+</body> 
+<br>
+<hr>
+<footer>
+  <div class="end">
+  <h3>CONNECT</h3>
+  <a href="https://www.facebook.com/playstation/" target="_blank" class="fa fa-facebook"></a>
+  <a href="https://twitter.com/PlayStation" target="_blank" class="fa fa-twitter"></a>
+  <a href="https://www.instagram.com/PlayStation/" target="_blank" class="fa fa-instagram"></a>
+  <a href="https://www.youtube.com/user/playstation" target="_blank" class="fa fa-youtube"></a>
+  </div>
+  <p>Created by Trang Le - currently studying with 
+    Lightbulb Ltd <br> Thank you! :)
+  </p>
+</footer>
+</html>
